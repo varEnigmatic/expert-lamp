@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title></title>
+  <title>What Can We Do Today?</title>
   <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link href='styles/main.css' rel='stylesheet' type="text/css">
 </head>
 <body ng-app="todoListApp">
-  <h1 ng-click="helloWorld()" style="text-align: center;">What Can We Do Today?</h1>
+  <h1 ng-click="helloWorld()" class="header">What Can We Do Today?</h1>
 	<div ng-controller="mainCtrl" class="list">	
 		<div ng-repeat="todo in todos">
 			<input ng-model="todo.completed" type="checkbox"/>
